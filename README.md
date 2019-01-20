@@ -8,7 +8,7 @@ The Dataset consists of 4521 individual customer records with 15 different featu
 # Approach
 The problem being a binary classification problem I use a naive bayes algorithm which requires the dataset to be divided into two parts.
 Subset for the 'Yes' class and Subset for the 'No' class. Then featurewise likelihoods are estimated (Gaussian Distribution for Continious 
-features and counting for categorical features. 
+features and counting for categorical features.)
 
 # Features
 1. Naive Bayes Algorithm is wriiten with Hadoop MapReduce

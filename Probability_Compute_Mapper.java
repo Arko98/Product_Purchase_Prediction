@@ -412,7 +412,7 @@ public class Probability_Compute_Mapper extends Mapper<LongWritable,Text,Text,Ha
 		 		 yes_prob_list.add(prob_y);
 		 		 no_prob_list.add(prob_n);
  				}
- 			 /*else if(i==10)
+ 			 else if(i==10)
  				{String x = lineParts[i];
 				 if(x.equals("\"apr\""))
 			 		{double prob_y = month_y_april_prob;
@@ -486,7 +486,7 @@ public class Probability_Compute_Mapper extends Mapper<LongWritable,Text,Text,Ha
 			 		 yes_prob_list.add(prob_y);
 			 		 no_prob_list.add(prob_n);
 			 		}
- 				}*/
+ 				}
  			 else if(i==11)
 				{double x = Double.parseDouble(lineParts[i]);
 		 		 double prob_y = Gaussian.Gaussian_prob(x, m_duration_y, sd_duration_y);

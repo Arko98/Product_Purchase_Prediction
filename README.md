@@ -11,7 +11,11 @@ Subset for the 'Yes' class and Subset for the 'No' class. Then featurewise likel
 features and counting for categorical features. 
 
 # Features
-1. Hadoop MapReduce codes are written in java
+1. Naive Bayes Algorithm is wriiten with Hadoop MapReduce
 2. Big Data file handling using HiveQL
 3. The Project assumes the dataset to be of Very Large size, so this approach can be equally used for any other big datasets (Petabytes)
 4. The Performance tweaking by dropping features is very easy and  can be achieved by a very nominal change in the Probability_Compute_Mapper.
+5. One can easily change the Gaussian Distribution to any other distribution (e.g - Chi Square) by changing the code of Gauusian.java to explore more improvements.
+
+# Future Scope
+The Dataset is not sufficiently large to capture a very general domain distribution hence Data Augmentation is required to generate more data on the domain to achieve better performance.

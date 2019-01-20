@@ -1,6 +1,7 @@
 # Inroduction
 This project predicts the purchase of a bank product using Naive Bayes based on 15 features of 4520 customer records. Some of these 
-features are categorical and rest of them ar numerical
+features are categorical and rest of them are numerical. 
+The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable target).
 
 # Dataset
 The Dataset consists of 4521 individual customer records with 15 different features each. 7 of the features are continious feature and rest of them are numerical. The dataset can be downloaded here: https://drive.google.com/file/d/14B93Y0wfHHkH4B1V5l_JdgCEnnPEiuXt/view?usp=sharing

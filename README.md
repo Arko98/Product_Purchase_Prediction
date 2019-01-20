@@ -3,8 +3,7 @@ This project predicts the purchase of a bank product using Naive Bayes based on 
 features are categorical and rest of them ar numrical
 
 # Dataset
-The Dataset consists of 4521 individual customer records with 15 different features each. 7 of the features are continious feature and rest of them are numerical. The dataset can be downloaded here: https://drive.google.com/file/d/16rmf9McE3HiEIQHuPdBzO3xu6j3h2idn/view?usp=sharing
-
+The Dataset consists of 4521 individual customer records with 15 different features each. 7 of the features are continious feature and rest of them are numerical. The dataset can be downloaded here: https://drive.google.com/file/d/1sSXE29ASPLdZUT-LKQyGGSizbZ1fIwBd/view?usp=sharing
 # Approach
 The problem being a binary classification problem I use a naive bayes algorithm which requires the dataset to be divided into two parts.
 Subset for the 'Yes' class and Subset for the 'No' class. Then featurewise likelihoods are estimated (Gaussian Distribution for Continious 

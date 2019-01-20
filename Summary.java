@@ -29,14 +29,22 @@ public class Summary
  	 	 			{false_negetive++;}
 		 	 	} 
 		 	double accuracy = ((double)true_positive + (double)true_negetive)/4521;
+		 	double precision = (double)true_positive/((double)true_positive + (double)false_positive);
+		 	double specificity = (double)true_negetive/((double)true_negetive + (double)false_positive);
+		 	double sensitivity = (double)true_positive/((double)true_positive + (double)false_negetive);
+		 	
 		 	System.out.println("Summary File Writing Started");
 		 	FileWriter fw = new FileWriter("/home/edureka/Desktop/Prediction_Project/Summary.txt");
 			PrintWriter pw = new PrintWriter(fw);
-			pw.print("\nTrue Positive : "+true_positive);
+			pw.print("True Positive : "+true_positive);
 			pw.print("\nTrue negetive : "+true_negetive);
 			pw.print("\nFalse Positive: "+false_positive);
 			pw.print("\nFalse Negetive: "+false_negetive);
+			pw.print('\n');
 			pw.print("\nAccuracy      : "+accuracy);
+			pw.print("\nPrecision     : "+precision);
+			pw.print("\nSpecificity   : "+specificity);
+			pw.print("\nSensitivity   : "+sensitivity);
 			pw.close();
 			System.out.println("Summary File Ready");
 		 	}

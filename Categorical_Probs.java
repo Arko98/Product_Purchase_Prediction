@@ -1,6 +1,7 @@
 package Naive_Bayes;
 /*@Author - Arkadipta De*/
 
+import java.lang.*;
 import java.io.*;
 import java.util.Scanner;
 
